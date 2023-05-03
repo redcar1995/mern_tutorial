@@ -10,6 +10,7 @@ connectDB();
 
 const app = express();
 
+//body parser configuration
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
